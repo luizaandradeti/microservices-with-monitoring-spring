@@ -1,17 +1,15 @@
-version: '3.8'
+version: '3.3'
 services:
   db:
-    image: mysql/mysql-server:latest
-    container_name: my-mysql
+    image: mysql:5.7
     restart: always
-    environment:
-      - MYSQL_DATABASE=mysqlDB
-      - MYSQL_ROOT_PASSWORD=Senhaxyz12%¨&*()
+    env_file:
+      - docker-secrets.env
     ports:
       - '3306:3306'
+    expose:
+      - '3306'      
     volumes:
-      - mysql-volume:/var/lib/mysql
+      - my-db:/var/lib/mysql
 volumes:
-  mysql-volume:
-    driver: local
-    
+  my-db:

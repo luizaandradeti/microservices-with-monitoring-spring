@@ -21,8 +21,10 @@
 ## Get Started 🚀  
 To get started... Follow the steps in the flow
   
-## Run Docker Compose MySQL br
+## Run Docker Compose MySQL in git bash
 ``` docker-compose up -d ```
+
+![App Screenshot](images/conexao-docker.png)  
 
 ## Start Spring Project ⚡️
 - https://start.spring.io/ 
