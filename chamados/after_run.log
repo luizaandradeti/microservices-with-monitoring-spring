@@ -1,0 +1,1025 @@
+"2025-03-05 19:46:57 ------- Starting ChamadosApplication using Java 19.0.2 with PID 16132 (C:\Users\Luiza\Documents\Spring com Monitoramento\chamados\target\classes started by Luiza in C:\Users\Luiza\Documents\Spring com Monitoramento\chamados)
+""2025-03-05 19:46:57 ------- No active profile set, falling back to 1 default profile: "default"
+""2025-03-05 19:46:57 ------- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2025-03-05 19:46:57 ------- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2025-03-05 19:46:58 ------- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2025-03-05 19:46:58 ------- Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+""2025-03-05 19:46:58 ------- Tomcat initialized with port 8085 (http)
+""2025-03-05 19:46:58 ------- Starting service [Tomcat]
+""2025-03-05 19:46:58 ------- Starting Servlet engine: [Apache Tomcat/10.1.36]
+""2025-03-05 19:46:59 ------- Initializing Spring embedded WebApplicationContext
+""2025-03-05 19:46:59 ------- Root WebApplicationContext: initialization completed in 1827 ms
+""2025-03-05 19:46:59 ------- HikariPool-1 - Starting...
+""2025-03-05 19:46:59 ------- HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@29f23e8e
+""2025-03-05 19:46:59 ------- HikariPool-1 - Start completed.
+""2025-03-05 19:46:59 ------- HHH000204: Processing PersistenceUnitInfo [name: default]
+""2025-03-05 19:46:59 ------- HHH000412: Hibernate ORM core version 6.6.8.Final
+""2025-03-05 19:46:59 ------- HHH000026: Second-level cache disabled
+""2025-03-05 19:47:00 ------- No LoadTimeWeaver setup: ignoring JPA class transformer
+""2025-03-05 19:47:00 ------- HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+""2025-03-05 19:47:00 ------- HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.23
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+""2025-03-05 19:47:02 ------- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+""2025-03-05 19:47:02 ------- Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2025-03-05 19:47:02 ------- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2025-03-05 19:47:04 ------- LiveReload server is running on port 35729
+""2025-03-05 19:47:04 ------- Exposing 15 endpoints beneath base path '/actuator'
+""2025-03-05 19:47:04 ------- Tomcat started on port 8085 (http) with context path '/'
+""2025-03-05 19:47:04 ------- Started ChamadosApplication in 8.035 seconds (process running for 9.212)
+""2025-03-05 19:47:04 ------- Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2025-03-05 19:47:04 ------- Initializing Servlet 'dispatcherServlet'
+""2025-03-05 19:47:04 ------- Completed initialization in 3 ms
+""2025-03-05 19:47:09 ------- Commencing graceful shutdown. Waiting for active requests to complete
+""2025-03-05 19:47:09 ------- Graceful shutdown complete
+""2025-03-05 19:47:09 ------- Closing JPA EntityManagerFactory for persistence unit 'default'
+""2025-03-05 19:47:09 ------- HikariPool-1 - Shutdown initiated...
+""2025-03-05 19:47:09 ------- HikariPool-1 - Shutdown completed.
+""2025-03-05 19:49:26 ------- Starting ChamadosApplication using Java 19.0.2 with PID 10092 (C:\Users\Luiza\Documents\Spring com Monitoramento\chamados\target\classes started by Luiza in C:\Users\Luiza\Documents\Spring com Monitoramento\chamados)
+""2025-03-05 19:49:26 ------- No active profile set, falling back to 1 default profile: "default"
+""2025-03-05 19:49:26 ------- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2025-03-05 19:49:26 ------- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2025-03-05 19:49:27 ------- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2025-03-05 19:49:27 ------- Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+""2025-03-05 19:49:28 ------- Tomcat initialized with port 8085 (http)
+""2025-03-05 19:49:28 ------- Starting service [Tomcat]
+""2025-03-05 19:49:28 ------- Starting Servlet engine: [Apache Tomcat/10.1.36]
+""2025-03-05 19:49:28 ------- Initializing Spring embedded WebApplicationContext
+""2025-03-05 19:49:28 ------- Root WebApplicationContext: initialization completed in 2320 ms
+""2025-03-05 19:49:29 ------- HikariPool-1 - Starting...
+""2025-03-05 19:49:30 ------- HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@39bc9bab
+""2025-03-05 19:49:30 ------- HikariPool-1 - Start completed.
+""2025-03-05 19:49:30 ------- HHH000204: Processing PersistenceUnitInfo [name: default]
+""2025-03-05 19:49:30 ------- HHH000412: Hibernate ORM core version 6.6.8.Final
+""2025-03-05 19:49:30 ------- HHH000026: Second-level cache disabled
+""2025-03-05 19:49:30 ------- No LoadTimeWeaver setup: ignoring JPA class transformer
+""2025-03-05 19:49:31 ------- HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+""2025-03-05 19:49:31 ------- HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.23
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+""2025-03-05 19:49:32 ------- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+""2025-03-05 19:49:32 ------- Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2025-03-05 19:49:32 ------- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2025-03-05 19:49:34 ------- LiveReload server is running on port 35729
+""2025-03-05 19:49:34 ------- Exposing 15 endpoints beneath base path '/actuator'
+""2025-03-05 19:49:34 ------- Tomcat started on port 8085 (http) with context path '/'
+""2025-03-05 19:49:34 ------- Started ChamadosApplication in 9.102 seconds (process running for 9.978)
+""2025-03-05 19:49:35 ------- Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2025-03-05 19:49:35 ------- Initializing Servlet 'dispatcherServlet'
+""2025-03-05 19:49:35 ------- Completed initialization in 4 ms
+""2025-03-05 19:52:41 ------- Commencing graceful shutdown. Waiting for active requests to complete
+""2025-03-05 19:52:41 ------- Graceful shutdown complete
+""2025-03-05 19:52:41 ------- Closing JPA EntityManagerFactory for persistence unit 'default'
+""2025-03-05 19:52:41 ------- HikariPool-1 - Shutdown initiated...
+""2025-03-05 19:52:41 ------- HikariPool-1 - Shutdown completed.
+""2025-03-05 19:55:05 ------- Starting ChamadosApplication using Java 19.0.2 with PID 2440 (C:\Users\Luiza\Documents\Spring com Monitoramento\chamados\target\classes started by Luiza in C:\Users\Luiza\Documents\Spring com Monitoramento\chamados)
+""2025-03-05 19:55:05 ------- No active profile set, falling back to 1 default profile: "default"
+""2025-03-05 19:55:05 ------- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2025-03-05 19:55:05 ------- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2025-03-05 19:55:06 ------- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2025-03-05 19:55:06 ------- Finished Spring Data repository scanning in 15 ms. Found 0 JPA repository interfaces.
+""2025-03-05 19:55:07 ------- Tomcat initialized with port 8085 (http)
+""2025-03-05 19:55:07 ------- Starting service [Tomcat]
+""2025-03-05 19:55:07 ------- Starting Servlet engine: [Apache Tomcat/10.1.36]
+""2025-03-05 19:55:07 ------- Initializing Spring embedded WebApplicationContext
+""2025-03-05 19:55:07 ------- Root WebApplicationContext: initialization completed in 1827 ms
+""2025-03-05 19:55:07 ------- HikariPool-1 - Starting...
+""2025-03-05 19:55:08 ------- HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@18680b67
+""2025-03-05 19:55:08 ------- HikariPool-1 - Start completed.
+""2025-03-05 19:55:08 ------- HHH000204: Processing PersistenceUnitInfo [name: default]
+""2025-03-05 19:55:08 ------- HHH000412: Hibernate ORM core version 6.6.8.Final
+""2025-03-05 19:55:08 ------- HHH000026: Second-level cache disabled
+""2025-03-05 19:55:08 ------- No LoadTimeWeaver setup: ignoring JPA class transformer
+""2025-03-05 19:55:08 ------- HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+""2025-03-05 19:55:08 ------- HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.23
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+""2025-03-05 19:55:09 ------- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+""2025-03-05 19:55:09 ------- Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2025-03-05 19:55:09 ------- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2025-03-05 19:55:10 ------- LiveReload server is running on port 35729
+""2025-03-05 19:55:10 ------- Exposing 15 endpoints beneath base path '/actuator'
+""2025-03-05 19:55:10 ------- Tomcat started on port 8085 (http) with context path '/'
+""2025-03-05 19:55:10 ------- Started ChamadosApplication in 5.619 seconds (process running for 6.533)
+""2025-03-05 19:55:10 ------- Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2025-03-05 19:55:10 ------- Initializing Servlet 'dispatcherServlet'
+""2025-03-05 19:55:10 ------- Completed initialization in 3 ms
+""2025-03-05 19:57:11 ------- Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
+""2025-03-05 19:57:11 ------- Commencing graceful shutdown. Waiting for active requests to complete
+""2025-03-05 19:57:11 ------- Graceful shutdown complete
+""2025-03-05 19:57:11 ------- Closing JPA EntityManagerFactory for persistence unit 'default'
+""2025-03-05 19:57:12 ------- HikariPool-1 - Shutdown initiated...
+""2025-03-05 19:57:12 ------- HikariPool-1 - Shutdown completed.
+""2025-03-05 19:57:12 ------- Starting ChamadosApplication using Java 19.0.2 with PID 2440 (C:\Users\Luiza\Documents\Spring com Monitoramento\chamados\target\classes started by Luiza in C:\Users\Luiza\Documents\Spring com Monitoramento\chamados)
+""2025-03-05 19:57:12 ------- No active profile set, falling back to 1 default profile: "default"
+""2025-03-05 19:57:12 ------- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2025-03-05 19:57:12 ------- Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+""2025-03-05 19:57:12 ------- Tomcat initialized with port 8085 (http)
+""2025-03-05 19:57:12 ------- Starting service [Tomcat]
+""2025-03-05 19:57:12 ------- Starting Servlet engine: [Apache Tomcat/10.1.36]
+""2025-03-05 19:57:12 ------- Initializing Spring embedded WebApplicationContext
+""2025-03-05 19:57:12 ------- Root WebApplicationContext: initialization completed in 757 ms
+""2025-03-05 19:57:13 ------- HikariPool-2 - Starting...
+""2025-03-05 19:57:13 ------- HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2d9aa389
+""2025-03-05 19:57:13 ------- HikariPool-2 - Start completed.
+""2025-03-05 19:57:13 ------- HHH000204: Processing PersistenceUnitInfo [name: default]
+""2025-03-05 19:57:13 ------- HHH000026: Second-level cache disabled
+""2025-03-05 19:57:13 ------- No LoadTimeWeaver setup: ignoring JPA class transformer
+""2025-03-05 19:57:13 ------- HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+""2025-03-05 19:57:13 ------- HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0.23
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+""2025-03-05 19:57:13 ------- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+""2025-03-05 19:57:13 ------- Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2025-03-05 19:57:13 ------- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2025-03-05 19:57:14 ------- LiveReload server is running on port 35729
+""2025-03-05 19:57:14 ------- Exposing 15 endpoints beneath base path '/actuator'
+""2025-03-05 19:57:14 ------- Tomcat started on port 8085 (http) with context path '/'
+""2025-03-05 19:57:14 ------- Started ChamadosApplication in 2.117 seconds (process running for 130.219)
+""2025-03-05 19:57:14 ------- Condition evaluation unchanged
+""2025-03-05 19:57:14 ------- Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2025-03-05 19:57:14 ------- Initializing Servlet 'dispatcherServlet'
+""2025-03-05 19:57:14 ------- Completed initialization in 2 ms
+""2025-03-05 19:57:15 ------- Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
+""2025-03-05 19:57:15 ------- Commencing graceful shutdown. Waiting for active requests to complete
+""2025-03-05 19:57:15 ------- Graceful shutdown complete
+""2025-03-05 19:57:15 ------- Closing JPA EntityManagerFactory for persistence unit 'default'
+""2025-03-05 19:57:15 ------- HikariPool-2 - Shutdown initiated...
+""2025-03-05 19:57:15 ------- HikariPool-2 - Shutdown completed.
+""2025-03-05 19:57:15 ------- Starting ChamadosApplication using Java 19.0.2 with PID 2440 (C:\Users\Luiza\Documents\Spring com Monitoramento\chamados\target\classes started by Luiza in C:\Users\Luiza\Documents\Spring com Monitoramento\chamados)
+""2025-03-05 19:57:15 ------- No active profile set, falling back to 1 default profile: "default"
+""2025-03-05 19:57:16 ------- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2025-03-05 19:57:16 ------- Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+""2025-03-05 19:57:16 ------- Tomcat initialized with port 8085 (http)
+""2025-03-05 19:57:16 ------- Starting service [Tomcat]
+""2025-03-05 19:57:16 ------- Starting Servlet engine: [Apache Tomcat/10.1.36]
+""2025-03-05 19:57:16 ------- Initializing Spring embedded WebApplicationContext
+""2025-03-05 19:57:16 ------- Root WebApplicationContext: initialization completed in 619 ms
+""2025-03-05 19:57:16 ------- HikariPool-3 - Starting...
+""2025-03-05 19:57:16 ------- HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@73997be0
+""2025-03-05 19:57:16 ------- HikariPool-3 - Start completed.
+""2025-03-05 19:57:16 ------- HHH000204: Processing PersistenceUnitInfo [name: default]
+""2025-03-05 19:57:16 ------- HHH000026: Second-level cache disabled
+""2025-03-05 19:57:16 ------- No LoadTimeWeaver setup: ignoring JPA class transformer
+""2025-03-05 19:57:16 ------- HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+""2025-03-05 19:57:16 ------- HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 8.0.23
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+""2025-03-05 19:57:16 ------- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+""2025-03-05 19:57:16 ------- Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2025-03-05 19:57:16 ------- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'apiDescriptionReader' defined in URL [jar:file:/C:/Users/Luiza/.m2/repository/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/scanners/ApiDescriptionReader.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'cachingOperationReader' defined in URL [jar:file:/C:/Users/Luiza/.m2/repository/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/scanners/CachingOperationReader.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'apiOperationReader' defined in URL [jar:file:/C:/Users/Luiza/.m2/repository/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/readers/operation/ApiOperationReader.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'documentationPluginsManager': Unsatisfied dependency expressed through field 'documentationPlugins': Error creating bean with name 'documentationPluginRegistry': 'void org.springframework.util.Assert.notNull(java.lang.Object)'
+""2025-03-05 19:57:16 ------- Closing JPA EntityManagerFactory for persistence unit 'default'
+""2025-03-05 19:57:16 ------- HikariPool-3 - Shutdown initiated...
+""2025-03-05 19:57:16 ------- HikariPool-3 - Shutdown completed.
+""2025-03-05 19:57:16 ------- Stopping service [Tomcat]
+""2025-03-05 19:57:16 ------- 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+""2025-03-05 19:57:16 ------- 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.springframework.plugin.core.support.AbstractTypeAwareSupport$BeansOfTypeTargetSource.<init>(AbstractTypeAwareSupport.java:135)
+
+The following method did not exist:
+
+    'void org.springframework.util.Assert.notNull(java.lang.Object)'
+
+The calling method's class, org.springframework.plugin.core.support.AbstractTypeAwareSupport$BeansOfTypeTargetSource, was loaded from the following location:
+
+    jar:file:/C:/Users/Luiza/.m2/repository/org/springframework/plugin/spring-plugin-core/1.2.0.RELEASE/spring-plugin-core-1.2.0.RELEASE.jar!/org/springframework/plugin/core/support/AbstractTypeAwareSupport$BeansOfTypeTargetSource.class
+
+The called method's class, org.springframework.util.Assert, is available from the following locations:
+
+    jar:file:/C:/Users/Luiza/.m2/repository/org/springframework/spring-core/6.2.3/spring-core-6.2.3.jar!/org/springframework/util/Assert.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    org.springframework.util.Assert: file:/C:/Users/Luiza/.m2/repository/org/springframework/spring-core/6.2.3/spring-core-6.2.3.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes org.springframework.plugin.core.support.AbstractTypeAwareSupport$BeansOfTypeTargetSource and org.springframework.util.Assert
+
+""2025-03-05 19:59:22 ------- Starting ChamadosApplication using Java 19.0.2 with PID 12492 (C:\Users\Luiza\Documents\Spring com Monitoramento\chamados\target\classes started by Luiza in C:\Users\Luiza\Documents\Spring com Monitoramento\chamados)
+""2025-03-05 19:59:22 ------- No active profile set, falling back to 1 default profile: "default"
+""2025-03-05 19:59:22 ------- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2025-03-05 19:59:22 ------- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2025-03-05 19:59:24 ------- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'api' defined in class path resource [com/manager/itens/SwaggerConfig.class]: Cannot register bean definition [Root bean: class=null; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=swaggerConfig; factoryMethodName=api; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/manager/itens/SwaggerConfig.class]] for bean 'api' since there is already [Root bean: class=null; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=chamadosApplication.SwaggerConfig; factoryMethodName=api; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/manager/itens/ChamadosApplication$SwaggerConfig.class]] bound.
+""2025-03-05 19:59:24 ------- 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+""2025-03-05 19:59:24 ------- 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'api', defined in class path resource [com/manager/itens/SwaggerConfig.class], could not be registered. A bean with that name has already been defined in class path resource [com/manager/itens/ChamadosApplication$SwaggerConfig.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+""2025-03-05 19:59:35 ------- Starting ChamadosApplication using Java 19.0.2 with PID 3492 (C:\Users\Luiza\Documents\Spring com Monitoramento\chamados\target\classes started by Luiza in C:\Users\Luiza\Documents\Spring com Monitoramento\chamados)
+""2025-03-05 19:59:35 ------- No active profile set, falling back to 1 default profile: "default"
+""2025-03-05 19:59:36 ------- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2025-03-05 19:59:36 ------- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2025-03-05 19:59:37 ------- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'api' defined in class path resource [com/manager/itens/SwaggerConfig.class]: Cannot register bean definition [Root bean: class=null; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=swaggerConfig; factoryMethodName=api; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/manager/itens/SwaggerConfig.class]] for bean 'api' since there is already [Root bean: class=null; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=chamadosApplication.SwaggerConfig; factoryMethodName=api; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/manager/itens/ChamadosApplication$SwaggerConfig.class]] bound.
+""2025-03-05 19:59:37 ------- 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+""2025-03-05 19:59:37 ------- 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'api', defined in class path resource [com/manager/itens/SwaggerConfig.class], could not be registered. A bean with that name has already been defined in class path resource [com/manager/itens/ChamadosApplication$SwaggerConfig.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+""2025-03-05 20:00:38 ------- Starting ChamadosApplication using Java 19.0.2 with PID 13040 (C:\Users\Luiza\Documents\Spring com Monitoramento\chamados\target\classes started by Luiza in C:\Users\Luiza\Documents\Spring com Monitoramento\chamados)
+""2025-03-05 20:00:38 ------- No active profile set, falling back to 1 default profile: "default"
+""2025-03-05 20:00:38 ------- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2025-03-05 20:00:38 ------- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2025-03-05 20:00:39 ------- Overriding bean definition for bean 'api' with a different definition: replacing [Root bean: class=null; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=chamadosApplication.SwaggerConfig; factoryMethodName=api; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/manager/itens/ChamadosApplication$SwaggerConfig.class]] with [Root bean: class=null; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=swaggerConfig; factoryMethodName=api; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/manager/itens/SwaggerConfig.class]]
+""2025-03-05 20:00:39 ------- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2025-03-05 20:00:39 ------- Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+""2025-03-05 20:00:40 ------- Tomcat initialized with port 8085 (http)
+""2025-03-05 20:00:40 ------- Starting service [Tomcat]
+""2025-03-05 20:00:40 ------- Starting Servlet engine: [Apache Tomcat/10.1.36]
+""2025-03-05 20:00:40 ------- Initializing Spring embedded WebApplicationContext
+""2025-03-05 20:00:40 ------- Root WebApplicationContext: initialization completed in 1719 ms
+""2025-03-05 20:00:41 ------- HikariPool-1 - Starting...
+""2025-03-05 20:00:41 ------- HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63b7f93f
+""2025-03-05 20:00:41 ------- HikariPool-1 - Start completed.
+""2025-03-05 20:00:41 ------- HHH000204: Processing PersistenceUnitInfo [name: default]
+""2025-03-05 20:00:41 ------- HHH000412: Hibernate ORM core version 6.6.8.Final
+""2025-03-05 20:00:41 ------- HHH000026: Second-level cache disabled
+""2025-03-05 20:00:41 ------- No LoadTimeWeaver setup: ignoring JPA class transformer
+""2025-03-05 20:00:41 ------- HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+""2025-03-05 20:00:41 ------- HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.23
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+""2025-03-05 20:00:42 ------- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+""2025-03-05 20:00:42 ------- Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2025-03-05 20:00:42 ------- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'apiDescriptionReader' defined in URL [jar:file:/C:/Users/Luiza/.m2/repository/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/scanners/ApiDescriptionReader.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'cachingOperationReader' defined in URL [jar:file:/C:/Users/Luiza/.m2/repository/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/scanners/CachingOperationReader.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'apiOperationReader' defined in URL [jar:file:/C:/Users/Luiza/.m2/repository/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/readers/operation/ApiOperationReader.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'documentationPluginsManager': Unsatisfied dependency expressed through field 'documentationPlugins': Error creating bean with name 'documentationPluginRegistry': 'void org.springframework.util.Assert.notNull(java.lang.Object)'
+""2025-03-05 20:00:42 ------- Closing JPA EntityManagerFactory for persistence unit 'default'
+""2025-03-05 20:00:42 ------- HikariPool-1 - Shutdown initiated...
+""2025-03-05 20:00:42 ------- HikariPool-1 - Shutdown completed.
+""2025-03-05 20:00:42 ------- Stopping service [Tomcat]
+""2025-03-05 20:00:42 ------- 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+""2025-03-05 20:00:42 ------- 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.springframework.plugin.core.support.AbstractTypeAwareSupport$BeansOfTypeTargetSource.<init>(AbstractTypeAwareSupport.java:135)
+
+The following method did not exist:
+
+    'void org.springframework.util.Assert.notNull(java.lang.Object)'
+
+The calling method's class, org.springframework.plugin.core.support.AbstractTypeAwareSupport$BeansOfTypeTargetSource, was loaded from the following location:
+
+    jar:file:/C:/Users/Luiza/.m2/repository/org/springframework/plugin/spring-plugin-core/1.2.0.RELEASE/spring-plugin-core-1.2.0.RELEASE.jar!/org/springframework/plugin/core/support/AbstractTypeAwareSupport$BeansOfTypeTargetSource.class
+
+The called method's class, org.springframework.util.Assert, is available from the following locations:
+
+    jar:file:/C:/Users/Luiza/.m2/repository/org/springframework/spring-core/6.2.3/spring-core-6.2.3.jar!/org/springframework/util/Assert.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    org.springframework.util.Assert: file:/C:/Users/Luiza/.m2/repository/org/springframework/spring-core/6.2.3/spring-core-6.2.3.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes org.springframework.plugin.core.support.AbstractTypeAwareSupport$BeansOfTypeTargetSource and org.springframework.util.Assert
+
+""2025-03-05 20:04:23 ------- Starting ChamadosApplication using Java 19.0.2 with PID 3524 (C:\Users\Luiza\Documents\Spring com Monitoramento\chamados\target\classes started by Luiza in C:\Users\Luiza\Documents\Spring com Monitoramento\chamados)
+""2025-03-05 20:04:23 ------- No active profile set, falling back to 1 default profile: "default"
+""2025-03-05 20:04:23 ------- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2025-03-05 20:04:23 ------- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2025-03-05 20:04:24 ------- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2025-03-05 20:04:24 ------- Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+""2025-03-05 20:04:25 ------- Tomcat initialized with port 8085 (http)
+""2025-03-05 20:04:25 ------- Starting service [Tomcat]
+""2025-03-05 20:04:25 ------- Starting Servlet engine: [Apache Tomcat/10.1.36]
+""2025-03-05 20:04:25 ------- Initializing Spring embedded WebApplicationContext
+""2025-03-05 20:04:25 ------- Root WebApplicationContext: initialization completed in 1580 ms
+""2025-03-05 20:04:25 ------- HikariPool-1 - Starting...
+""2025-03-05 20:04:25 ------- HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71cf77db
+""2025-03-05 20:04:25 ------- HikariPool-1 - Start completed.
+""2025-03-05 20:04:25 ------- HHH000204: Processing PersistenceUnitInfo [name: default]
+""2025-03-05 20:04:25 ------- HHH000412: Hibernate ORM core version 6.6.8.Final
+""2025-03-05 20:04:25 ------- HHH000026: Second-level cache disabled
+""2025-03-05 20:04:25 ------- No LoadTimeWeaver setup: ignoring JPA class transformer
+""2025-03-05 20:04:26 ------- HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+""2025-03-05 20:04:26 ------- HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.23
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+""2025-03-05 20:04:26 ------- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+""2025-03-05 20:04:26 ------- Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2025-03-05 20:04:26 ------- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2025-03-05 20:04:26 ------- Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+""2025-03-05 20:04:27 ------- LiveReload server is running on port 35729
+""2025-03-05 20:04:27 ------- Exposing 15 endpoints beneath base path '/actuator'
+""2025-03-05 20:04:27 ------- Tomcat started on port 8085 (http) with context path '/'
+""2025-03-05 20:04:27 ------- Started ChamadosApplication in 4.478 seconds (process running for 4.996)
+""2025-03-05 20:04:27 ------- Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2025-03-05 20:04:27 ------- Initializing Servlet 'dispatcherServlet'
+""2025-03-05 20:04:27 ------- Completed initialization in 2 ms
+""2025-03-05 20:04:38 ------- Init duration for springdoc-openapi is: 153 ms
+""2025-03-05 20:08:51 ------- Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+""2025-03-05 20:08:51 ------- Commencing graceful shutdown. Waiting for active requests to complete
+""2025-03-05 20:08:51 ------- Graceful shutdown complete
+""2025-03-05 20:08:51 ------- Closing JPA EntityManagerFactory for persistence unit 'default'
+""2025-03-05 20:08:51 ------- HikariPool-1 - Shutdown initiated...
+""2025-03-05 20:08:51 ------- HikariPool-1 - Shutdown completed.
+""2025-03-05 20:08:52 ------- Starting ChamadosApplication using Java 19.0.2 with PID 3524 (C:\Users\Luiza\Documents\Spring com Monitoramento\chamados\target\classes started by Luiza in C:\Users\Luiza\Documents\Spring com Monitoramento\chamados)
+""2025-03-05 20:08:52 ------- No active profile set, falling back to 1 default profile: "default"
+""2025-03-05 20:08:52 ------- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2025-03-05 20:08:52 ------- Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+""2025-03-05 20:08:52 ------- Tomcat initialized with port 8085 (http)
+""2025-03-05 20:08:52 ------- Starting service [Tomcat]
+""2025-03-05 20:08:52 ------- Starting Servlet engine: [Apache Tomcat/10.1.36]
+""2025-03-05 20:08:52 ------- Initializing Spring embedded WebApplicationContext
+""2025-03-05 20:08:52 ------- Root WebApplicationContext: initialization completed in 362 ms
+""2025-03-05 20:08:52 ------- HikariPool-2 - Starting...
+""2025-03-05 20:08:52 ------- HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@760f235c
+""2025-03-05 20:08:52 ------- HikariPool-2 - Start completed.
+""2025-03-05 20:08:52 ------- HHH000204: Processing PersistenceUnitInfo [name: default]
+""2025-03-05 20:08:52 ------- HHH000026: Second-level cache disabled
+""2025-03-05 20:08:52 ------- No LoadTimeWeaver setup: ignoring JPA class transformer
+""2025-03-05 20:08:52 ------- HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+""2025-03-05 20:08:52 ------- HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0.23
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+""2025-03-05 20:08:52 ------- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+""2025-03-05 20:08:52 ------- Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2025-03-05 20:08:52 ------- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2025-03-05 20:08:52 ------- Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+""2025-03-05 20:08:53 ------- LiveReload server is running on port 35729
+""2025-03-05 20:08:53 ------- Exposing 15 endpoints beneath base path '/actuator'
+""2025-03-05 20:08:53 ------- Tomcat started on port 8085 (http) with context path '/'
+""2025-03-05 20:08:53 ------- Started ChamadosApplication in 1.108 seconds (process running for 270.398)
+""2025-03-05 20:08:53 ------- Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   SpringDocConfiguration.SpringDocActuatorConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.boot.actuate.autoconfigure.endpoint.web.WebEndpointProperties' (OnClassCondition)
+      - @ConditionalOnProperty (springdoc.show-actuator) matched (OnPropertyCondition)
+
+   SpringDocConfiguration.SpringDocActuatorConfiguration#actuatorCustomizer matched:
+      - Management Port actual port type (SAME) matched required type (OnManagementPortCondition)
+
+   SpringDocWebMvcConfiguration.SpringDocWebMvcActuatorConfiguration#actuatorProvider matched:
+      - @ConditionalOnExpression (#{${springdoc.show-actuator:false} or ${springdoc.use-management-port:false}}) resulted in true (OnExpressionCondition)
+      - @ConditionalOnMissingBean (types: org.springdoc.core.providers.ActuatorProvider; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+   SpringDocConfiguration.SpringDocActuatorConfiguration#springdocBeanFactoryPostProcessor3:
+      Did not match:
+         - AnyNestedCondition 0 matched 2 did not; NestedCondition on MultipleOpenApiSupportCondition.OnActuatorDifferentPort found non-matching nested conditions Management Port actual port type (SAME) did not match required type (DIFFERENT); NestedCondition on MultipleOpenApiSupportCondition.OnMultipleOpenApiSupportCondition AnyNestedCondition 0 matched 3 did not; NestedCondition on MultipleOpenApiGroupsCondition.OnListGroupedOpenApiBean @ConditionalOnBean (types: org.springdoc.core.models.GroupedOpenApi; SearchStrategy: all) did not find any beans of type org.springdoc.core.models.GroupedOpenApi; NestedCondition on MultipleOpenApiGroupsCondition.OnGroupConfigProperty @ConditionalOnProperty (springdoc.group-configs[0].group) did not find property 'springdoc.group-configs[0].group'; NestedCondition on MultipleOpenApiGroupsCondition.OnGroupedOpenApiBean @ConditionalOnBean (types: org.springdoc.core.models.GroupedOpenApi; SearchStrategy: all) did not find any beans of type org.springdoc.core.models.GroupedOpenApi (MultipleOpenApiSupportCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+""2025-03-05 20:09:02 ------- Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+""2025-03-05 20:09:02 ------- Commencing graceful shutdown. Waiting for active requests to complete
+""2025-03-05 20:09:02 ------- Graceful shutdown complete
+""2025-03-05 20:09:02 ------- Closing JPA EntityManagerFactory for persistence unit 'default'
+""2025-03-05 20:09:02 ------- HikariPool-2 - Shutdown initiated...
+""2025-03-05 20:09:02 ------- HikariPool-2 - Shutdown completed.
+""2025-03-05 20:09:02 ------- Starting ChamadosApplication using Java 19.0.2 with PID 3524 (C:\Users\Luiza\Documents\Spring com Monitoramento\chamados\target\classes started by Luiza in C:\Users\Luiza\Documents\Spring com Monitoramento\chamados)
+""2025-03-05 20:09:02 ------- No active profile set, falling back to 1 default profile: "default"
+""2025-03-05 20:09:03 ------- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2025-03-05 20:09:03 ------- Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+""2025-03-05 20:09:03 ------- Tomcat initialized with port 8085 (http)
+""2025-03-05 20:09:03 ------- Starting service [Tomcat]
+""2025-03-05 20:09:03 ------- Starting Servlet engine: [Apache Tomcat/10.1.36]
+""2025-03-05 20:09:03 ------- Initializing Spring embedded WebApplicationContext
+""2025-03-05 20:09:03 ------- Root WebApplicationContext: initialization completed in 411 ms
+""2025-03-05 20:09:03 ------- HikariPool-3 - Starting...
+""2025-03-05 20:09:03 ------- HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4af669d5
+""2025-03-05 20:09:03 ------- HikariPool-3 - Start completed.
+""2025-03-05 20:09:03 ------- HHH000204: Processing PersistenceUnitInfo [name: default]
+""2025-03-05 20:09:03 ------- HHH000026: Second-level cache disabled
+""2025-03-05 20:09:03 ------- No LoadTimeWeaver setup: ignoring JPA class transformer
+""2025-03-05 20:09:03 ------- HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+""2025-03-05 20:09:03 ------- HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 8.0.23
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+""2025-03-05 20:09:03 ------- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+""2025-03-05 20:09:03 ------- Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2025-03-05 20:09:03 ------- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration': Unsatisfied dependency expressed through method 'setConfigurers' parameter 0: Error creating bean with name 'swaggerWebMvcConfigurer' defined in class path resource [org/springdoc/webmvc/ui/SwaggerConfig.class]: Unsatisfied dependency expressed through method 'swaggerWebMvcConfigurer' parameter 1: Error creating bean with name 'indexPageTransformer' defined in class path resource [org/springdoc/webmvc/ui/SwaggerConfig.class]: Unsatisfied dependency expressed through method 'indexPageTransformer' parameter 2: No qualifying bean of type 'org.springdoc.webmvc.ui.SwaggerWelcomeCommon' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+""2025-03-05 20:09:03 ------- Closing JPA EntityManagerFactory for persistence unit 'default'
+""2025-03-05 20:09:03 ------- HikariPool-3 - Shutdown initiated...
+""2025-03-05 20:09:03 ------- HikariPool-3 - Shutdown completed.
+""2025-03-05 20:09:03 ------- Stopping service [Tomcat]
+""2025-03-05 20:09:03 ------- 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+""2025-03-05 20:09:03 ------- 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 2 of method indexPageTransformer in org.springdoc.webmvc.ui.SwaggerConfig required a bean of type 'org.springdoc.webmvc.ui.SwaggerWelcomeCommon' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springdoc.webmvc.ui.SwaggerWelcomeCommon' in your configuration.
+
+""2025-03-05 20:10:37 ------- Starting ChamadosApplication using Java 19.0.2 with PID 20564 (C:\Users\Luiza\Documents\Spring com Monitoramento\chamados\target\classes started by Luiza in C:\Users\Luiza\Documents\Spring com Monitoramento\chamados)
+""2025-03-05 20:10:37 ------- No active profile set, falling back to 1 default profile: "default"
+""2025-03-05 20:10:37 ------- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2025-03-05 20:10:37 ------- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2025-03-05 20:10:38 ------- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2025-03-05 20:10:38 ------- Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+""2025-03-05 20:10:39 ------- Tomcat initialized with port 8085 (http)
+""2025-03-05 20:10:39 ------- Starting service [Tomcat]
+""2025-03-05 20:10:39 ------- Starting Servlet engine: [Apache Tomcat/10.1.36]
+""2025-03-05 20:10:39 ------- Initializing Spring embedded WebApplicationContext
+""2025-03-05 20:10:39 ------- Root WebApplicationContext: initialization completed in 1417 ms
+""2025-03-05 20:10:39 ------- HikariPool-1 - Starting...
+""2025-03-05 20:10:39 ------- HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@39202c5b
+""2025-03-05 20:10:39 ------- HikariPool-1 - Start completed.
+""2025-03-05 20:10:39 ------- HHH000204: Processing PersistenceUnitInfo [name: default]
+""2025-03-05 20:10:39 ------- HHH000412: Hibernate ORM core version 6.6.8.Final
+""2025-03-05 20:10:39 ------- HHH000026: Second-level cache disabled
+""2025-03-05 20:10:40 ------- No LoadTimeWeaver setup: ignoring JPA class transformer
+""2025-03-05 20:10:40 ------- HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+""2025-03-05 20:10:40 ------- HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.23
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+""2025-03-05 20:10:41 ------- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+""2025-03-05 20:10:41 ------- Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2025-03-05 20:10:41 ------- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2025-03-05 20:10:41 ------- Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+""2025-03-05 20:10:41 ------- Endpoint ID 'swagger-ui' contains invalid characters, please migrate to a valid format.
+""2025-03-05 20:10:42 ------- LiveReload server is running on port 35729
+""2025-03-05 20:10:42 ------- Tomcat started on port 8085 (http) with context path '/'
+""2025-03-05 20:10:42 ------- Tomcat initialized with port 8082 (http)
+""2025-03-05 20:10:42 ------- Starting service [Tomcat]
+""2025-03-05 20:10:42 ------- Starting Servlet engine: [Apache Tomcat/10.1.36]
+""2025-03-05 20:10:42 ------- Initializing Spring embedded WebApplicationContext
+""2025-03-05 20:10:42 ------- Root WebApplicationContext: initialization completed in 84 ms
+""2025-03-05 20:10:42 ------- Exposing 17 endpoints beneath base path '/actuator'
+""2025-03-05 20:10:42 ------- Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+""2025-03-05 20:10:42 ------- Tomcat started on port 8082 (http) with context path '/'
+""2025-03-05 20:10:42 ------- Started ChamadosApplication in 4.992 seconds (process running for 5.541)
+""2025-03-05 20:10:42 ------- Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2025-03-05 20:10:42 ------- Initializing Servlet 'dispatcherServlet'
+""2025-03-05 20:10:42 ------- Completed initialization in 2 ms
+""2025-03-05 20:10:47 ------- Initializing Spring DispatcherServlet 'dispatcherServletRegistration'
+""2025-03-05 20:10:47 ------- Initializing Servlet 'dispatcherServletRegistration'
+""2025-03-05 20:10:47 ------- Completed initialization in 0 ms
+""2025-03-05 20:10:47 ------- Init duration for springdoc-openapi is: 159 ms
+""2025-03-05 20:11:29 ------- Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+""2025-03-05 20:11:29 ------- Commencing graceful shutdown. Waiting for active requests to complete
+""2025-03-05 20:11:29 ------- Graceful shutdown complete
+""2025-03-05 20:11:29 ------- Commencing graceful shutdown. Waiting for active requests to complete
+""2025-03-05 20:11:29 ------- Graceful shutdown complete
+""2025-03-05 20:11:29 ------- Stopping service [Tomcat]
+""2025-03-05 20:11:29 ------- Destroying Spring FrameworkServlet 'dispatcherServletRegistration'
+""2025-03-05 20:11:29 ------- Closing JPA EntityManagerFactory for persistence unit 'default'
+""2025-03-05 20:11:29 ------- HikariPool-1 - Shutdown initiated...
+""2025-03-05 20:11:29 ------- HikariPool-1 - Shutdown completed.
+""2025-03-05 20:11:29 ------- Starting ChamadosApplication using Java 19.0.2 with PID 20564 (C:\Users\Luiza\Documents\Spring com Monitoramento\chamados\target\classes started by Luiza in C:\Users\Luiza\Documents\Spring com Monitoramento\chamados)
+""2025-03-05 20:11:29 ------- No active profile set, falling back to 1 default profile: "default"
+""2025-03-05 20:11:29 ------- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2025-03-05 20:11:29 ------- Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+""2025-03-05 20:11:30 ------- Tomcat initialized with port 8080 (http)
+""2025-03-05 20:11:30 ------- Starting service [Tomcat]
+""2025-03-05 20:11:30 ------- Starting Servlet engine: [Apache Tomcat/10.1.36]
+""2025-03-05 20:11:30 ------- Initializing Spring embedded WebApplicationContext
+""2025-03-05 20:11:30 ------- Root WebApplicationContext: initialization completed in 501 ms
+""2025-03-05 20:11:30 ------- HikariPool-2 - Starting...
+""2025-03-05 20:11:30 ------- HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@53f6d57f
+""2025-03-05 20:11:30 ------- HikariPool-2 - Start completed.
+""2025-03-05 20:11:30 ------- HHH000204: Processing PersistenceUnitInfo [name: default]
+""2025-03-05 20:11:30 ------- HHH000026: Second-level cache disabled
+""2025-03-05 20:11:30 ------- No LoadTimeWeaver setup: ignoring JPA class transformer
+""2025-03-05 20:11:30 ------- HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+""2025-03-05 20:11:30 ------- HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0.23
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+""2025-03-05 20:11:30 ------- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+""2025-03-05 20:11:30 ------- Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2025-03-05 20:11:30 ------- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2025-03-05 20:11:30 ------- Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+""2025-03-05 20:11:30 ------- LiveReload server is running on port 35729
+""2025-03-05 20:11:30 ------- Tomcat started on port 8080 (http) with context path '/'
+""2025-03-05 20:11:30 ------- Tomcat initialized with port 8082 (http)
+""2025-03-05 20:11:30 ------- Starting service [Tomcat]
+""2025-03-05 20:11:30 ------- Starting Servlet engine: [Apache Tomcat/10.1.36]
+""2025-03-05 20:11:30 ------- Initializing Spring embedded WebApplicationContext
+""2025-03-05 20:11:30 ------- Root WebApplicationContext: initialization completed in 72 ms
+""2025-03-05 20:11:30 ------- Exposing 17 endpoints beneath base path '/actuator'
+""2025-03-05 20:11:31 ------- Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+""2025-03-05 20:11:31 ------- Tomcat started on port 8082 (http) with context path '/'
+""2025-03-05 20:11:31 ------- Started ChamadosApplication in 1.422 seconds (process running for 53.97)
+""2025-03-05 20:11:31 ------- Condition evaluation unchanged
+""2025-03-05 20:11:50 ------- Commencing graceful shutdown. Waiting for active requests to complete
+""2025-03-05 20:11:50 ------- Graceful shutdown complete
+""2025-03-05 20:11:50 ------- Commencing graceful shutdown. Waiting for active requests to complete
+""2025-03-05 20:11:50 ------- Graceful shutdown complete
+""2025-03-05 20:11:50 ------- Closing JPA EntityManagerFactory for persistence unit 'default'
+""2025-03-05 20:11:50 ------- HikariPool-2 - Shutdown initiated...
+""2025-03-05 20:11:50 ------- HikariPool-2 - Shutdown completed.
+""2025-03-05 20:11:53 ------- Starting ChamadosApplication using Java 19.0.2 with PID 24360 (C:\Users\Luiza\Documents\Spring com Monitoramento\chamados\target\classes started by Luiza in C:\Users\Luiza\Documents\Spring com Monitoramento\chamados)
+""2025-03-05 20:11:53 ------- No active profile set, falling back to 1 default profile: "default"
+""2025-03-05 20:11:53 ------- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2025-03-05 20:11:53 ------- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2025-03-05 20:11:54 ------- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2025-03-05 20:11:54 ------- Finished Spring Data repository scanning in 15 ms. Found 0 JPA repository interfaces.
+""2025-03-05 20:11:54 ------- Tomcat initialized with port 8085 (http)
+""2025-03-05 20:11:54 ------- Starting service [Tomcat]
+""2025-03-05 20:11:54 ------- Starting Servlet engine: [Apache Tomcat/10.1.36]
+""2025-03-05 20:11:54 ------- Initializing Spring embedded WebApplicationContext
+""2025-03-05 20:11:54 ------- Root WebApplicationContext: initialization completed in 1589 ms
+""2025-03-05 20:11:55 ------- HikariPool-1 - Starting...
+""2025-03-05 20:11:55 ------- HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1823d9bf
+""2025-03-05 20:11:55 ------- HikariPool-1 - Start completed.
+""2025-03-05 20:11:55 ------- HHH000204: Processing PersistenceUnitInfo [name: default]
+""2025-03-05 20:11:55 ------- HHH000412: Hibernate ORM core version 6.6.8.Final
+""2025-03-05 20:11:55 ------- HHH000026: Second-level cache disabled
+""2025-03-05 20:11:55 ------- No LoadTimeWeaver setup: ignoring JPA class transformer
+""2025-03-05 20:11:55 ------- HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+""2025-03-05 20:11:55 ------- HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.23
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+""2025-03-05 20:11:56 ------- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+""2025-03-05 20:11:56 ------- Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2025-03-05 20:11:56 ------- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration': Unsatisfied dependency expressed through method 'setConfigurers' parameter 0: Error creating bean with name 'swaggerWebMvcConfigurer' defined in class path resource [org/springdoc/webmvc/ui/SwaggerConfig.class]: Unsatisfied dependency expressed through method 'swaggerWebMvcConfigurer' parameter 1: Error creating bean with name 'indexPageTransformer' defined in class path resource [org/springdoc/webmvc/ui/SwaggerConfig.class]: Unsatisfied dependency expressed through method 'indexPageTransformer' parameter 2: No qualifying bean of type 'org.springdoc.webmvc.ui.SwaggerWelcomeCommon' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+""2025-03-05 20:11:56 ------- Closing JPA EntityManagerFactory for persistence unit 'default'
+""2025-03-05 20:11:56 ------- HikariPool-1 - Shutdown initiated...
+""2025-03-05 20:11:56 ------- HikariPool-1 - Shutdown completed.
+""2025-03-05 20:11:56 ------- Stopping service [Tomcat]
+""2025-03-05 20:11:56 ------- 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+""2025-03-05 20:11:56 ------- 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 2 of method indexPageTransformer in org.springdoc.webmvc.ui.SwaggerConfig required a bean of type 'org.springdoc.webmvc.ui.SwaggerWelcomeCommon' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springdoc.webmvc.ui.SwaggerWelcomeCommon' in your configuration.
+
+""2025-03-05 20:12:50 ------- Starting ChamadosApplication using Java 19.0.2 with PID 13600 (C:\Users\Luiza\Documents\Spring com Monitoramento\chamados\target\classes started by Luiza in C:\Users\Luiza\Documents\Spring com Monitoramento\chamados)
+""2025-03-05 20:12:50 ------- No active profile set, falling back to 1 default profile: "default"
+""2025-03-05 20:12:50 ------- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2025-03-05 20:12:50 ------- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2025-03-05 20:12:51 ------- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2025-03-05 20:12:51 ------- Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+""2025-03-05 20:12:52 ------- Tomcat initialized with port 8080 (http)
+""2025-03-05 20:12:52 ------- Starting service [Tomcat]
+""2025-03-05 20:12:52 ------- Starting Servlet engine: [Apache Tomcat/10.1.36]
+""2025-03-05 20:12:52 ------- Initializing Spring embedded WebApplicationContext
+""2025-03-05 20:12:52 ------- Root WebApplicationContext: initialization completed in 1478 ms
+""2025-03-05 20:12:52 ------- HikariPool-1 - Starting...
+""2025-03-05 20:12:52 ------- HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@25d7e6d2
+""2025-03-05 20:12:52 ------- HikariPool-1 - Start completed.
+""2025-03-05 20:12:52 ------- HHH000204: Processing PersistenceUnitInfo [name: default]
+""2025-03-05 20:12:52 ------- HHH000412: Hibernate ORM core version 6.6.8.Final
+""2025-03-05 20:12:52 ------- HHH000026: Second-level cache disabled
+""2025-03-05 20:12:52 ------- No LoadTimeWeaver setup: ignoring JPA class transformer
+""2025-03-05 20:12:52 ------- HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+""2025-03-05 20:12:52 ------- HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.23
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+""2025-03-05 20:12:53 ------- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+""2025-03-05 20:12:53 ------- Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2025-03-05 20:12:53 ------- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2025-03-05 20:12:53 ------- Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+""2025-03-05 20:12:54 ------- Endpoint ID 'swagger-ui' contains invalid characters, please migrate to a valid format.
+""2025-03-05 20:12:54 ------- LiveReload server is running on port 35729
+""2025-03-05 20:12:54 ------- Tomcat started on port 8080 (http) with context path '/'
+""2025-03-05 20:12:54 ------- Tomcat initialized with port 8082 (http)
+""2025-03-05 20:12:54 ------- Starting service [Tomcat]
+""2025-03-05 20:12:54 ------- Starting Servlet engine: [Apache Tomcat/10.1.36]
+""2025-03-05 20:12:54 ------- Initializing Spring embedded WebApplicationContext
+""2025-03-05 20:12:54 ------- Root WebApplicationContext: initialization completed in 71 ms
+""2025-03-05 20:12:54 ------- Exposing 17 endpoints beneath base path '/actuator'
+""2025-03-05 20:12:54 ------- Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+""2025-03-05 20:12:54 ------- Tomcat started on port 8082 (http) with context path '/'
+""2025-03-05 20:12:54 ------- Started ChamadosApplication in 4.352 seconds (process running for 4.908)
+""2025-03-05 20:12:54 ------- Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2025-03-05 20:12:54 ------- Initializing Servlet 'dispatcherServlet'
+""2025-03-05 20:12:54 ------- Completed initialization in 2 ms
+""2025-03-05 20:13:01 ------- Initializing Spring DispatcherServlet 'dispatcherServletRegistration'
+""2025-03-05 20:13:01 ------- Initializing Servlet 'dispatcherServletRegistration'
+""2025-03-05 20:13:01 ------- Completed initialization in 0 ms
+""2025-03-05 20:13:02 ------- Init duration for springdoc-openapi is: 158 ms
+""2025-03-05 20:13:38 ------- Health
+""2025-03-05 20:13:38 ------- Health
+""2025-03-05 20:13:38 ------- Health
+""2025-03-05 20:13:38 ------- Health
+""2025-03-05 20:13:38 ------- Health
+""2025-03-05 20:13:38 ------- Health
+""2025-03-05 20:13:38 ------- Health
+""2025-03-05 20:13:38 ------- Health
+""2025-03-05 20:13:38 ------- Health
+""2025-03-05 20:15:56 ------- Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+""2025-03-05 20:15:56 ------- Commencing graceful shutdown. Waiting for active requests to complete
+""2025-03-05 20:15:56 ------- Graceful shutdown complete
+""2025-03-05 20:15:56 ------- Commencing graceful shutdown. Waiting for active requests to complete
+""2025-03-05 20:15:56 ------- Graceful shutdown complete
+""2025-03-05 20:15:56 ------- Stopping service [Tomcat]
+""2025-03-05 20:15:56 ------- Destroying Spring FrameworkServlet 'dispatcherServletRegistration'
+""2025-03-05 20:15:56 ------- Closing JPA EntityManagerFactory for persistence unit 'default'
+""2025-03-05 20:15:56 ------- HikariPool-1 - Shutdown initiated...
+""2025-03-05 20:15:56 ------- HikariPool-1 - Shutdown completed.
+""2025-03-05 20:15:56 ------- Starting ChamadosApplication using Java 19.0.2 with PID 13600 (C:\Users\Luiza\Documents\Spring com Monitoramento\chamados\target\classes started by Luiza in C:\Users\Luiza\Documents\Spring com Monitoramento\chamados)
+""2025-03-05 20:15:56 ------- No active profile set, falling back to 1 default profile: "default"
+""2025-03-05 20:15:57 ------- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2025-03-05 20:15:57 ------- Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+""2025-03-05 20:15:57 ------- Tomcat initialized with port 8080 (http)
+""2025-03-05 20:15:57 ------- Starting service [Tomcat]
+""2025-03-05 20:15:57 ------- Starting Servlet engine: [Apache Tomcat/10.1.36]
+""2025-03-05 20:15:57 ------- Initializing Spring embedded WebApplicationContext
+""2025-03-05 20:15:57 ------- Root WebApplicationContext: initialization completed in 371 ms
+""2025-03-05 20:15:57 ------- HikariPool-2 - Starting...
+""2025-03-05 20:15:57 ------- HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6ecd8d76
+""2025-03-05 20:15:57 ------- HikariPool-2 - Start completed.
+""2025-03-05 20:15:57 ------- HHH000204: Processing PersistenceUnitInfo [name: default]
+""2025-03-05 20:15:57 ------- HHH000026: Second-level cache disabled
+""2025-03-05 20:15:57 ------- No LoadTimeWeaver setup: ignoring JPA class transformer
+""2025-03-05 20:15:57 ------- HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+""2025-03-05 20:15:57 ------- HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0.23
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+""2025-03-05 20:15:57 ------- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+""2025-03-05 20:15:57 ------- Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2025-03-05 20:15:57 ------- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration': Unsatisfied dependency expressed through method 'setConfigurers' parameter 0: Error creating bean with name 'swaggerWebMvcConfigurer' defined in class path resource [org/springdoc/webmvc/ui/SwaggerConfig.class]: Unsatisfied dependency expressed through method 'swaggerWebMvcConfigurer' parameter 1: Error creating bean with name 'indexPageTransformer' defined in class path resource [org/springdoc/webmvc/ui/SwaggerConfig.class]: Unsatisfied dependency expressed through method 'indexPageTransformer' parameter 2: No qualifying bean of type 'org.springdoc.webmvc.ui.SwaggerWelcomeCommon' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+""2025-03-05 20:15:57 ------- Closing JPA EntityManagerFactory for persistence unit 'default'
+""2025-03-05 20:15:57 ------- HikariPool-2 - Shutdown initiated...
+""2025-03-05 20:15:57 ------- HikariPool-2 - Shutdown completed.
+""2025-03-05 20:15:57 ------- Stopping service [Tomcat]
+""2025-03-05 20:15:57 ------- 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+""2025-03-05 20:15:57 ------- 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 2 of method indexPageTransformer in org.springdoc.webmvc.ui.SwaggerConfig required a bean of type 'org.springdoc.webmvc.ui.SwaggerWelcomeCommon' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springdoc.webmvc.ui.SwaggerWelcomeCommon' in your configuration.
+
+""2025-03-05 20:16:32 ------- Starting ChamadosApplication using Java 19.0.2 with PID 2788 (C:\Users\Luiza\Documents\Spring com Monitoramento\chamados\target\classes started by Luiza in C:\Users\Luiza\Documents\Spring com Monitoramento\chamados)
+""2025-03-05 20:16:32 ------- No active profile set, falling back to 1 default profile: "default"
+""2025-03-05 20:16:32 ------- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2025-03-05 20:16:32 ------- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2025-03-05 20:16:33 ------- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2025-03-05 20:16:33 ------- Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+""2025-03-05 20:16:33 ------- Tomcat initialized with port 8080 (http)
+""2025-03-05 20:16:33 ------- Starting service [Tomcat]
+""2025-03-05 20:16:33 ------- Starting Servlet engine: [Apache Tomcat/10.1.36]
+""2025-03-05 20:16:33 ------- Initializing Spring embedded WebApplicationContext
+""2025-03-05 20:16:33 ------- Root WebApplicationContext: initialization completed in 1414 ms
+""2025-03-05 20:16:34 ------- HikariPool-1 - Starting...
+""2025-03-05 20:16:34 ------- HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@59dd77c
+""2025-03-05 20:16:34 ------- HikariPool-1 - Start completed.
+""2025-03-05 20:16:34 ------- HHH000204: Processing PersistenceUnitInfo [name: default]
+""2025-03-05 20:16:34 ------- HHH000412: Hibernate ORM core version 6.6.8.Final
+""2025-03-05 20:16:34 ------- HHH000026: Second-level cache disabled
+""2025-03-05 20:16:34 ------- No LoadTimeWeaver setup: ignoring JPA class transformer
+""2025-03-05 20:16:34 ------- HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+""2025-03-05 20:16:34 ------- HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.23
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+""2025-03-05 20:16:35 ------- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+""2025-03-05 20:16:35 ------- Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2025-03-05 20:16:35 ------- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2025-03-05 20:16:35 ------- Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+""2025-03-05 20:16:35 ------- Endpoint ID 'swagger-ui' contains invalid characters, please migrate to a valid format.
+""2025-03-05 20:16:36 ------- LiveReload server is running on port 35729
+""2025-03-05 20:16:36 ------- Tomcat started on port 8080 (http) with context path '/'
+""2025-03-05 20:16:36 ------- Tomcat initialized with port 9090 (http)
+""2025-03-05 20:16:36 ------- Starting service [Tomcat]
+""2025-03-05 20:16:36 ------- Starting Servlet engine: [Apache Tomcat/10.1.36]
+""2025-03-05 20:16:36 ------- Initializing Spring embedded WebApplicationContext
+""2025-03-05 20:16:36 ------- Root WebApplicationContext: initialization completed in 106 ms
+""2025-03-05 20:16:36 ------- Exposing 2 endpoints beneath base path '/actuator'
+""2025-03-05 20:16:36 ------- Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+""2025-03-05 20:16:36 ------- Tomcat started on port 9090 (http) with context path '/'
+""2025-03-05 20:16:36 ------- Started ChamadosApplication in 4.398 seconds (process running for 4.907)
+""2025-03-05 20:16:36 ------- Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2025-03-05 20:16:36 ------- Initializing Servlet 'dispatcherServlet'
+""2025-03-05 20:16:36 ------- Completed initialization in 2 ms
+""2025-03-05 20:16:43 ------- Initializing Spring DispatcherServlet 'dispatcherServletRegistration'
+""2025-03-05 20:16:43 ------- Initializing Servlet 'dispatcherServletRegistration'
+""2025-03-05 20:16:43 ------- Completed initialization in 1 ms
+""2025-03-05 20:16:43 ------- Init duration for springdoc-openapi is: 154 ms
+""2025-03-05 20:17:51 ------- Health
+""2025-03-05 20:17:51 ------- Health
+""2025-03-05 20:17:51 ------- Health
+""2025-03-05 20:17:51 ------- Health
+""2025-03-05 20:17:51 ------- Health
+""2025-03-05 20:17:51 ------- Health
+""2025-03-05 20:17:51 ------- Health
+""2025-03-05 20:17:51 ------- Health
+""2025-03-05 20:17:51 ------- Health
+""2025-03-05 20:18:34 ------- Health
+""2025-03-05 20:18:34 ------- Health
+""2025-03-05 20:18:34 ------- Health
+""2025-03-05 20:18:34 ------- Health
+""2025-03-05 20:18:34 ------- Health
+""2025-03-05 20:18:34 ------- Health
+""2025-03-05 20:18:34 ------- Health
+""2025-03-05 20:18:34 ------- Health
+""2025-03-05 20:18:34 ------- Health
+""2025-03-05 20:19:04 ------- Health
+""2025-03-05 20:19:04 ------- Health
+""2025-03-05 20:19:04 ------- Health
+""2025-03-05 20:19:04 ------- Health
+""2025-03-05 20:19:04 ------- Health
+""2025-03-05 20:19:04 ------- Health
+""2025-03-05 20:19:04 ------- Health
+""2025-03-05 20:19:04 ------- Health
+""2025-03-05 20:19:04 ------- Health
+""2025-03-05 20:21:23 ------- Health
+""2025-03-05 20:21:23 ------- Health
+""2025-03-05 20:21:23 ------- Health
+""2025-03-05 20:21:23 ------- Health
+""2025-03-05 20:21:23 ------- Health
+""2025-03-05 20:21:23 ------- Health
+""2025-03-05 20:21:23 ------- Health
+""2025-03-05 20:21:23 ------- Health
+""2025-03-05 20:21:23 ------- Health
+""2025-03-05 20:21:49 ------- Health
+""2025-03-05 20:21:49 ------- Health
+""2025-03-05 20:21:49 ------- Health
+""2025-03-05 20:21:49 ------- Health
+""2025-03-05 20:21:49 ------- Health
+""2025-03-05 20:21:49 ------- Health
+""2025-03-05 20:21:49 ------- Health
+""2025-03-05 20:21:49 ------- Health
+""2025-03-05 20:21:49 ------- Health
+""2025-03-05 20:22:46 ------- Commencing graceful shutdown. Waiting for active requests to complete
+""2025-03-05 20:22:47 ------- Graceful shutdown complete
+""2025-03-05 20:22:47 ------- Commencing graceful shutdown. Waiting for active requests to complete
+""2025-03-05 20:22:47 ------- Graceful shutdown complete
+""2025-03-05 20:22:47 ------- Closing JPA EntityManagerFactory for persistence unit 'default'
+""2025-03-05 20:22:47 ------- HikariPool-1 - Shutdown initiated...
+""2025-03-05 20:22:47 ------- HikariPool-1 - Shutdown completed.
+""2025-03-05 20:22:52 ------- Starting ChamadosApplication using Java 19.0.2 with PID 12976 (C:\Users\Luiza\Documents\Spring com Monitoramento\chamados\target\classes started by Luiza in C:\Users\Luiza\Documents\Spring com Monitoramento\chamados)
+""2025-03-05 20:22:52 ------- No active profile set, falling back to 1 default profile: "default"
+""2025-03-05 20:22:52 ------- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2025-03-05 20:22:52 ------- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2025-03-05 20:22:53 ------- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2025-03-05 20:22:53 ------- Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+""2025-03-05 20:22:53 ------- Tomcat initialized with port 8080 (http)
+""2025-03-05 20:22:53 ------- Starting service [Tomcat]
+""2025-03-05 20:22:53 ------- Starting Servlet engine: [Apache Tomcat/10.1.36]
+""2025-03-05 20:22:54 ------- Initializing Spring embedded WebApplicationContext
+""2025-03-05 20:22:54 ------- Root WebApplicationContext: initialization completed in 1723 ms
+""2025-03-05 20:22:54 ------- HikariPool-1 - Starting...
+""2025-03-05 20:22:54 ------- HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32f7f204
+""2025-03-05 20:22:54 ------- HikariPool-1 - Start completed.
+""2025-03-05 20:22:54 ------- HHH000204: Processing PersistenceUnitInfo [name: default]
+""2025-03-05 20:22:54 ------- HHH000412: Hibernate ORM core version 6.6.8.Final
+""2025-03-05 20:22:54 ------- HHH000026: Second-level cache disabled
+""2025-03-05 20:22:55 ------- No LoadTimeWeaver setup: ignoring JPA class transformer
+""2025-03-05 20:22:55 ------- HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+""2025-03-05 20:22:55 ------- HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.23
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+""2025-03-05 20:22:55 ------- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+""2025-03-05 20:22:55 ------- Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2025-03-05 20:22:56 ------- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2025-03-05 20:22:56 ------- Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+""2025-03-05 20:22:56 ------- Endpoint ID 'swagger-ui' contains invalid characters, please migrate to a valid format.
+""2025-03-05 20:22:57 ------- LiveReload server is running on port 35729
+""2025-03-05 20:22:57 ------- Tomcat started on port 8080 (http) with context path '/'
+""2025-03-05 20:22:57 ------- Tomcat initialized with port 9090 (http)
+""2025-03-05 20:22:57 ------- Starting service [Tomcat]
+""2025-03-05 20:22:57 ------- Starting Servlet engine: [Apache Tomcat/10.1.36]
+""2025-03-05 20:22:57 ------- Initializing Spring embedded WebApplicationContext
+""2025-03-05 20:22:57 ------- Root WebApplicationContext: initialization completed in 95 ms
+""2025-03-05 20:22:57 ------- Exposing 2 endpoints beneath base path '/actuator'
+""2025-03-05 20:22:57 ------- Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+""2025-03-05 20:22:57 ------- Tomcat started on port 9090 (http) with context path '/'
+""2025-03-05 20:22:57 ------- Started ChamadosApplication in 5.576 seconds (process running for 6.106)
+""2025-03-05 20:22:58 ------- Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2025-03-05 20:22:58 ------- Initializing Servlet 'dispatcherServlet'
+""2025-03-05 20:22:58 ------- Completed initialization in 2 ms
+""2025-03-05 20:22:58 ------- Initializing Spring DispatcherServlet 'dispatcherServletRegistration'
+""2025-03-05 20:22:58 ------- Initializing Servlet 'dispatcherServletRegistration'
+""2025-03-05 20:22:58 ------- Completed initialization in 1 ms
+""2025-03-05 20:22:59 ------- Init duration for springdoc-openapi is: 206 ms
+""2025-03-05 20:23:04 ------- Health
+""2025-03-05 20:23:04 ------- Health
+""2025-03-05 20:23:04 ------- Health
+""2025-03-05 20:23:04 ------- Health
+""2025-03-05 20:23:04 ------- Health
+""2025-03-05 20:23:04 ------- Health
+""2025-03-05 20:23:04 ------- Health
+""2025-03-05 20:23:04 ------- Health
+""2025-03-05 20:23:04 ------- Health
+""2025-03-05 20:23:36 ------- Commencing graceful shutdown. Waiting for active requests to complete
+""2025-03-05 20:23:36 ------- Graceful shutdown complete
+""2025-03-05 20:23:36 ------- Commencing graceful shutdown. Waiting for active requests to complete
+""2025-03-05 20:23:36 ------- Graceful shutdown complete
+""2025-03-05 20:23:36 ------- Closing JPA EntityManagerFactory for persistence unit 'default'
+""2025-03-05 20:23:36 ------- HikariPool-1 - Shutdown initiated...
+""2025-03-05 20:23:36 ------- HikariPool-1 - Shutdown completed.
+""2025-03-05 20:23:39 ------- Starting ChamadosApplication using Java 19.0.2 with PID 3876 (C:\Users\Luiza\Documents\Spring com Monitoramento\chamados\target\classes started by Luiza in C:\Users\Luiza\Documents\Spring com Monitoramento\chamados)
+""2025-03-05 20:23:39 ------- No active profile set, falling back to 1 default profile: "default"
+""2025-03-05 20:23:40 ------- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2025-03-05 20:23:40 ------- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2025-03-05 20:23:40 ------- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2025-03-05 20:23:40 ------- Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+""2025-03-05 20:23:41 ------- Tomcat initialized with port 8080 (http)
+""2025-03-05 20:23:41 ------- Starting service [Tomcat]
+""2025-03-05 20:23:41 ------- Starting Servlet engine: [Apache Tomcat/10.1.36]
+""2025-03-05 20:23:41 ------- Initializing Spring embedded WebApplicationContext
+""2025-03-05 20:23:41 ------- Root WebApplicationContext: initialization completed in 1441 ms
+""2025-03-05 20:23:41 ------- HikariPool-1 - Starting...
+""2025-03-05 20:23:41 ------- HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4a53c5a1
+""2025-03-05 20:23:41 ------- HikariPool-1 - Start completed.
+""2025-03-05 20:23:41 ------- HHH000204: Processing PersistenceUnitInfo [name: default]
+""2025-03-05 20:23:41 ------- HHH000412: Hibernate ORM core version 6.6.8.Final
+""2025-03-05 20:23:41 ------- HHH000026: Second-level cache disabled
+""2025-03-05 20:23:42 ------- No LoadTimeWeaver setup: ignoring JPA class transformer
+""2025-03-05 20:23:42 ------- HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+""2025-03-05 20:23:42 ------- HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.23
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+""2025-03-05 20:23:42 ------- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+""2025-03-05 20:23:42 ------- Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2025-03-05 20:23:43 ------- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2025-03-05 20:23:43 ------- Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+""2025-03-05 20:23:44 ------- LiveReload server is running on port 35729
+""2025-03-05 20:23:44 ------- Exposing 1 endpoint beneath base path '/actuator'
+""2025-03-05 20:23:44 ------- Tomcat started on port 8080 (http) with context path '/'
+""2025-03-05 20:23:44 ------- Started ChamadosApplication in 4.545 seconds (process running for 5.077)
+""2025-03-05 20:23:44 ------- Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2025-03-05 20:23:44 ------- Initializing Servlet 'dispatcherServlet'
+""2025-03-05 20:23:44 ------- Completed initialization in 2 ms
+""2025-03-05 20:23:59 ------- Init duration for springdoc-openapi is: 206 ms
+""2025-03-05 20:25:22 ------- Health
+""2025-03-05 20:25:22 ------- Health
+""2025-03-05 20:25:22 ------- Health
+""2025-03-05 20:25:22 ------- Health
+""2025-03-05 20:25:22 ------- Health
+""2025-03-05 20:25:22 ------- Health
+""2025-03-05 20:25:22 ------- Health
+""2025-03-05 20:25:22 ------- Health
+""2025-03-05 20:25:22 ------- Health
+""2025-03-05 20:32:52 ------- Commencing graceful shutdown. Waiting for active requests to complete
+""2025-03-05 20:32:52 ------- Graceful shutdown complete
+""2025-03-05 20:32:52 ------- Closing JPA EntityManagerFactory for persistence unit 'default'
+""2025-03-05 20:32:52 ------- HikariPool-1 - Shutdown initiated...
+""2025-03-05 20:32:52 ------- HikariPool-1 - Shutdown completed.
+"
