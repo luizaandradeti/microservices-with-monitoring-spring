@@ -48,4 +48,22 @@ output
 
 ![App Screenshot](images/actuator-image.png) 
 
+## Add swagger and logs
+**pom.xml**
+````
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+            <version>2.8.5</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-data-rest -->
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-data-rest</artifactId>
+            <version>1.8.0</version>
+        </dependency
+````
+**application.properties**
+![App Screenshot](images/logs.png) 
+
 ![App Screenshot](images/swagger.png) 
